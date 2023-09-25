@@ -4,12 +4,12 @@ Training machine learning models involves carefully managing and processing your
 
 This repository contains two examples:
 
-1. Custom Dataset for the Titanic Dataset
+1. **Custom Dataset for the Titanic Dataset**
 - Tabular data
 - Entire dataset can fit into memory
 - K-Fold cross validation
   
-2. Custom Dataset for the Food-101 Dataset
+2. **Custom Dataset for the Food-101 Dataset**
 - Image data
 - Data is loaded from disk and augmented each time a batch is requested because the entire dataset does not fit into memory
 - Transfer learning from a pretrained vision transformer model
